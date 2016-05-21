@@ -1,6 +1,6 @@
 # ufw_autoblock
 
-FUNCTION: Unblock IPs at a defined time and block it again at a defined time. It can also use a different time at the weekend.
+Function: Block and Unblock IPs at a special time what you can adjust for every day. Can be used to restrict access for a time for some people to a server with Samba shares or Plex Media Server.
 
 ## INSTALL
 ### ------------------------------------
