@@ -1,0 +1,15 @@
+[Unit]
+Description=ufw Autoblock Daemon
+
+[Service]
+User=root
+Group=root
+Type=forking
+WorkingDirectory=/opt/ufw_autoblock/
+ExecStart=/bin/bash daemon.sh start
+ExecStop=/bin/bash daemon.sh stop
+ExecStatus=/bin/bash daemon.sh status
+ExecReload=/bin/bash daemon.sh restart
+
+[Install]
+WantedBy=multi-user.target
