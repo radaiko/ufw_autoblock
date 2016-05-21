@@ -9,7 +9,7 @@ Function: Block and Unblock IPs at a special time what you can adjust for every 
   2 = copy autoblock.sh and daemon.sh into this folder
   3 = change in ab.conf the IPs 10.0.0.xx and time to what you want
   4 = make this files executeable (chmod +x autoblock.sh daemon.sh)
-  5 = copy ufw_autoblock into /etc/systemd/system/
+  5 = copy ufw_autoblock.service into /etc/systemd/system/
   6 = activate the service (systemctl enable ufw_autoblock)
 ```
 ### --------------------------------------
